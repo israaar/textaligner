@@ -1,0 +1,72 @@
+
+/*body { margin: 0 }*/
+.header
+{
+	background-color: SteelBlue;
+	margin: 0;
+}
+
+.header h1
+{
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.nav-bar ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-bar li
+{
+   float: left;
+   border-right: 1px solid #bbb;
+}
+
+.nav-bar li:last-child {
+    border-right: none;
+}
+
+.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-bar li a:hover {
+    background-color: #111;
+}
+
+.nav-bar .active {
+    background-color: #4CAF50;
+}
+
+.text 
+{
+  /* min-width: 500px; */
+   /*width: 100%; */
+   min-width : 600px;
+   position: relative;
+   display: block;
+}
+
+.split-txt
+{
+    width: 100%;
+    height: 200px;
+}
+
+.text .split-span
+{
+    display: block;
+    text-align: right;
+}

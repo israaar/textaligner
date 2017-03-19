@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bilingual Text Tools</title>
+	<link rel="stylesheet" type="text/css" href="static/style/main.css">
+   <!-- <link href="static/style/smoothness2/jquery-ui-1.11.2.custom.min.css" rel="stylesheet"/>
+	<link href="static/style/pagination.css" rel="stylesheet"/>
+	-->
+	<script src="{{ url_for('static', filename='script/jquery-3.2.0.min.js') }}"></script>
+   <!-- <script src="{{ url_for('static', filename='script/jquery-ui-1.11.2.custom.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='script/jquery.pagination.js') }}"></script>
+	-->
+	<script>
+	$(document).ready(function() {	
+		$('.split-btn').click(function(){
+			var text = $('.split-txt').val();
+			$.ajax({
+				type: 'POST',
+				url: '/ajax_split',
+				data: { "text" : text
+					  },
+				dataType: 'json',
+				error: 	function(jqXHR, textStatus, errorThrown){
+						// TODO: add handler
+						},
+				success: function(result, textStatus, jqXHR){
+							split_text = result.text;
+							$('.split-txt').val(split_text);
+						}
+			});
+		});
+	});
+	</script>	
+</head>
+<body>
+<div class="header"><h1>Split a text into sentences</h1></div>
+<div class="nav-bar">
+	<ul>
+		<li><a href="/split" class="active">Split a text into sentences</a></li>
+		<li><a href="/align">Align two texts</a></li>
+	</ul>
+</div>
+<div>Enter a text below and press 'Split'</div>
+<div class="text">
+	<textarea class="split-txt"></textarea>
+	<span class="split-span"><button class="split-btn">Split into sentences</button></span>
+</div>
+</body>	

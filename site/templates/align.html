@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bilingual Text Tools</title>
+	<link rel="stylesheet" type="text/css" href="static/style/main.css">
+   <!-- <link href="static/style/smoothness2/jquery-ui-1.11.2.custom.min.css" rel="stylesheet"/>
+	<link href="static/style/pagination.css" rel="stylesheet"/>
+	-->
+	<script src="{{ url_for('static', filename='script/jquery-3.2.0.min.js') }}"></script>
+   <!-- <script src="{{ url_for('static', filename='script/jquery-ui-1.11.2.custom.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='script/jquery.pagination.js') }}"></script>
+	-->
+	<script>
+	$(document).ready(function() {
+		
+		$('.split-btn').click(function(){
+			//alert('tttee')
+			var lang = 'jp'
+			var text = $('.split-txt').val();
+			//alert(text);
+			$.ajax({
+				type: "POST",
+				url: '/split',
+				data: { "text" : text,
+						"lang" : lang
+					  },
+				dataType: "json",
+				error: 	function(jqXHR, textStatus, errorThrown){
+						// TODO: add handler
+						},
+				success: function(result, textStatus, jqXHR){
+							split_text = result.text;
+							$('.split-txt').val(split_text);
+						}
+			});
+		});
+	});
+	</script>	
+</head>
+<body>
+<h1>Tools to Create Bilingial Texts</h1>
+<div class="text">
+	<textarea class="split-txt"></textarea>
+	<span class="split-span"><button class="split-btn">Split into sentences</button></span>
+</div>
+</body>	

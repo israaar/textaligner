@@ -1,0 +1,695 @@
+2017-03-18 23:00:52,504  INFO: 13540 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:00:53,342 WARNING: 13656 [  _internal.py:87]  * Debugger is active!
+2017-03-18 23:00:53,415  INFO: 13656 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-18 23:00:53,718  INFO: 13924 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-18 23:16:50,631  INFO: 15120 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:16:51,485 WARNING: 15332 [  _internal.py:87]  * Debugger is active!
+2017-03-18 23:16:51,489  INFO: 15332 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-18 23:16:51,993  INFO: 15352 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-18 23:17:38,144 ERROR: 13924 [  webserver.py:25] 
+Traceback (most recent call last):
+  File "webserver.py", line 18, in start_page
+    kanjiTable = totalKanjiList,
+NameError: name 'totalKanjiList' is not defined
+2017-03-18 23:17:38,362  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:38] "GET / HTTP/1.1" 500 -
+2017-03-18 23:17:38,784  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2017-03-18 23:17:38,857  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2017-03-18 23:17:38,945  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:38] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2017-03-18 23:17:38,982  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-03-18 23:17:40,162  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2017-03-18 23:17:40,171  INFO: 13924 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:17:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2017-03-18 23:18:28,009  INFO: 15332 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-18 23:18:28,090  INFO: 15120 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:18:28,093  INFO: 13656 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-18 23:18:29,555  INFO: 13540 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:19:34,004  INFO: 12792 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:19:34,863 WARNING: 15132 [  _internal.py:87]  * Debugger is active!
+2017-03-18 23:19:34,868  INFO: 15132 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-18 23:19:34,898  INFO: 12484 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-18 23:19:46,444  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:19:46] "GET / HTTP/1.1" 200 -
+2017-03-18 23:19:46,826  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:19:46] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:19:46,873  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:19:46] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 200 -
+2017-03-18 23:19:47,673  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:19:47] "GET /favicon.ico HTTP/1.1" 404 -
+2017-03-18 23:19:47,982  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:19:47] "GET /favicon.ico HTTP/1.1" 404 -
+2017-03-18 23:21:24,154  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:21:24] "GET / HTTP/1.1" 200 -
+2017-03-18 23:21:24,905  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:21:24] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:21:24,908  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:21:24] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:21:38,722  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:21:38] "GET / HTTP/1.1" 200 -
+2017-03-18 23:21:39,345  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:21:39] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:21:39,419  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:21:39] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:22:19,482  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:22:19] "GET / HTTP/1.1" 200 -
+2017-03-18 23:22:20,106  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:22:20] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:22:20,116  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:22:20] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:24:20,432  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:24:20] "GET / HTTP/1.1" 200 -
+2017-03-18 23:24:21,085  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:24:21] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:24:21,087  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:24:21] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:24:43,240  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:24:43] "GET / HTTP/1.1" 200 -
+2017-03-18 23:24:43,861  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:24:43] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:24:43,899  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:24:43] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:31:10,762  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:31:10] "GET / HTTP/1.1" 200 -
+2017-03-18 23:31:11,411  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:31:11] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:31:17,397  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:31:17] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:31:29,803  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:31:29] "GET / HTTP/1.1" 200 -
+2017-03-18 23:31:30,529  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:31:30] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:31:30,568  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:31:30] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:32:52,633  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:32:52] "GET / HTTP/1.1" 200 -
+2017-03-18 23:32:53,348  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:32:53] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:32:53,380  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:32:53] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:33:35,758  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:33:35] "GET / HTTP/1.1" 200 -
+2017-03-18 23:33:36,525  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:33:36] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:33:36,527  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:33:36] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:33:47,840  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:33:47] "GET / HTTP/1.1" 200 -
+2017-03-18 23:33:48,705  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:33:48] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:33:48,745  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:33:48] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:34:03,614  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:34:03] "GET / HTTP/1.1" 200 -
+2017-03-18 23:34:04,542  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:34:04] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:34:04,548  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:34:04] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:37:40,932  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:37:40] "GET / HTTP/1.1" 200 -
+2017-03-18 23:37:41,885  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:37:41] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:37:41,909  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:37:41] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:38:31,409  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:38:31] "GET / HTTP/1.1" 200 -
+2017-03-18 23:38:32,278  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:38:32] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:38:32,309  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:38:32] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:38:54,341  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:38:54] "GET / HTTP/1.1" 200 -
+2017-03-18 23:38:55,191  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:38:55] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:38:55,202  INFO: 12484 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:38:55] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:48:04,123  INFO: 15132 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-18 23:48:09,743  INFO: 12792 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:52:02,128  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-18 23:52:14,618 WARNING: 15332 [  _internal.py:87]  * Debugger is active!
+2017-03-18 23:52:14,803  INFO: 15332 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-18 23:52:16,030  INFO: 14500 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-18 23:53:24,467  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:53:24] "GET / HTTP/1.1" 200 -
+2017-03-18 23:53:26,476  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:53:26] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:53:26,479  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:53:26] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:54:45,422  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:54:45] "GET / HTTP/1.1" 200 -
+2017-03-18 23:54:46,328  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:54:46] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-18 23:54:46,380  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:54:46] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-18 23:56:19,009  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:56:19] "GET / HTTP/1.1" 200 -
+2017-03-18 23:56:20,008  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:56:20] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-18 23:56:20,043  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [18/Mar/2017 23:56:20] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:01:20,175  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:01:20] "GET / HTTP/1.1" 200 -
+2017-03-19 00:01:21,077  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:01:21] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:01:21,120  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:01:21] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:02:41,722  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:02:41] "GET / HTTP/1.1" 200 -
+2017-03-19 00:02:42,643  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:02:42] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:02:42,691  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:02:42] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:03:32,453  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:03:32] "GET / HTTP/1.1" 200 -
+2017-03-19 00:03:33,563  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:03:33] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:03:33,596  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:03:33] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:03:38,829 ERROR: 14500 [  webserver.py:36] 
+Traceback (most recent call last):
+  File "webserver.py", line 30, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:03:39,082  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:03:39] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:05:37,753 ERROR: 14500 [  webserver.py:36] 
+Traceback (most recent call last):
+  File "webserver.py", line 30, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:05:37,754  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:05:37] "GET /split HTTP/1.1" 400 -
+2017-03-19 00:06:04,684  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:04] "GET / HTTP/1.1" 200 -
+2017-03-19 00:06:05,608  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:05] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:06:05,638  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:05] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:06:22,141  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:22] "GET / HTTP/1.1" 200 -
+2017-03-19 00:06:23,150  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:23] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:06:23,195  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:23] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:06:35,245  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:35] "GET / HTTP/1.1" 200 -
+2017-03-19 00:06:36,166  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:36] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:06:36,168  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:36] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:06:40,121 ERROR: 14500 [  webserver.py:36] 
+Traceback (most recent call last):
+  File "webserver.py", line 30, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:06:40,121  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:06:40] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:07:55,832  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:07:55] "GET / HTTP/1.1" 200 -
+2017-03-19 00:07:56,819  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:07:56] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:07:56,853  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:07:56] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:07:59,749 ERROR: 14500 [  webserver.py:36] 
+Traceback (most recent call last):
+  File "webserver.py", line 30, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:07:59,750  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:07:59] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:09:11,815 ERROR: 14500 [  webserver.py:36] 
+Traceback (most recent call last):
+  File "webserver.py", line 30, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:09:11,816  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:09:11] "GET /split HTTP/1.1" 400 -
+2017-03-19 00:11:24,085  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:11:24] "GET / HTTP/1.1" 200 -
+2017-03-19 00:11:25,001  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:11:25] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:11:30,083  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:11:30] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:11:41,803 ERROR: 14500 [  webserver.py:36] 
+Traceback (most recent call last):
+  File "webserver.py", line 30, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:11:41,804  INFO: 14500 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:11:41] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:12:15,586  INFO: 15332 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:12:18,652  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:12:35,800 WARNING: 3632 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:12:35,834  INFO: 3632 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:12:36,641  INFO: 13192 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:12:36,808 ERROR: 13192 [  webserver.py:37] 
+Traceback (most recent call last):
+  File "webserver.py", line 31, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:12:36,926  INFO: 13192 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:12:36] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:13:22,912  INFO: 3632 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:13:23,000  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:13:26,668 WARNING: 15288 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:13:26,672  INFO: 15288 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:13:26,701  INFO: 14264 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:13:28,352  INFO: 14264 [  webserver.py:27] ImmutableMultiDict([])
+2017-03-19 00:13:28,352 ERROR: 14264 [  webserver.py:37] 
+Traceback (most recent call last):
+  File "webserver.py", line 31, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:13:28,365  INFO: 14264 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:13:28] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:13:42,268  INFO: 14264 [  webserver.py:27] ImmutableMultiDict([])
+2017-03-19 00:13:42,268 ERROR: 14264 [  webserver.py:37] 
+Traceback (most recent call last):
+  File "webserver.py", line 31, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:13:42,268  INFO: 14264 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:13:42] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:14:21,711  INFO: 15288 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:14:21,822  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:14:23,237 WARNING: 10820 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:14:23,241  INFO: 10820 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:14:23,268  INFO: 15016 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:14:41,695  INFO: 10820 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:14:41,726  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:14:42,629 WARNING: 13380 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:14:42,645  INFO: 13380 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:14:42,662  INFO: 12680 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:14:53,362  INFO: 12680 [  webserver.py:27] test ImmutableMultiDict([])
+2017-03-19 00:14:53,362 ERROR: 12680 [  webserver.py:37] 
+Traceback (most recent call last):
+  File "webserver.py", line 31, in split
+    raise BadRequest('Text is empty')
+werkzeug.exceptions.BadRequest: 400 Bad Request: Text is empty
+2017-03-19 00:14:53,455  INFO: 12680 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:14:53] "POST /split HTTP/1.1" 400 -
+2017-03-19 00:16:27,695  INFO: 13380 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:16:27,803  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:16:34,787 WARNING: 11252 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:16:34,791  INFO: 11252 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:16:36,006  INFO: 15256 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:16:52,491  INFO: 15256 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:16:52] "GET / HTTP/1.1" 200 -
+2017-03-19 00:16:53,362  INFO: 15256 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:16:53] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 00:16:53,364  INFO: 15256 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:16:53] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 00:16:55,740  INFO: 15256 [  webserver.py:27] test ImmutableMultiDict([])
+2017-03-19 00:16:55,834  INFO: 15256 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 00:16:55] "POST /split HTTP/1.1" 200 -
+2017-03-19 00:17:44,058  INFO: 11252 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:17:44,082  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:17:44,892 WARNING: 14500 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:17:44,896  INFO: 14500 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:17:44,915  INFO: 13868 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:17:53,040  INFO: 14500 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:17:53,147  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:17:54,084 WARNING: 12752 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:17:54,105  INFO: 12752 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:17:54,120  INFO: 14264 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:18:19,602  INFO: 12752 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:18:19,638  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:18:20,491 WARNING: 12208 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:18:20,497  INFO: 12208 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:18:20,512  INFO: 12752 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:18:37,780  INFO: 12208 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:18:37,828  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:18:38,858 WARNING: 15388 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:18:38,863  INFO: 15388 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:18:38,875  INFO: 15416 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 00:18:58,162  INFO: 15388 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 00:18:58,227  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 00:18:59,221 WARNING: 15720 [  _internal.py:87]  * Debugger is active!
+2017-03-19 00:18:59,225  INFO: 15720 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 00:18:59,240  INFO: 15740 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 11:20:57,505  INFO: 15720 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 11:22:10,649  INFO: 12888 [  _internal.py:87]  * Restarting with stat
+2017-03-19 11:26:09,879 WARNING: 20512 [  _internal.py:87]  * Debugger is active!
+2017-03-19 11:26:12,271  INFO: 20512 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 11:26:29,163  INFO: 20592 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:20:26,481  INFO: 5856 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:20:27,667 WARNING: 7212 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:20:27,828  INFO: 7212 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:20:29,154  INFO: 1880 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:21:25,891  INFO: 1880 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:21:25] "GET / HTTP/1.1" 200 -
+2017-03-19 12:21:26,490  INFO: 1880 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:21:26] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 12:21:27,520  INFO: 1880 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:21:27] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 12:22:15,163  INFO: 7212 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 12:22:15,494  INFO: 5856 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:37:02,256  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:37:03,083 WARNING: 9000 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:37:03,086  INFO: 9000 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:37:03,198  INFO: 9012 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:38:22,975  INFO: 9012 [  webserver.py:44] Lang: 　というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。, text to split: ja
+2017-03-19 12:38:23,018  INFO: 9012 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:38:23] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:38:41,265  INFO: 9012 [  webserver.py:44] Lang: というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+, text to split: ja
+2017-03-19 12:38:41,268  INFO: 9012 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:38:41] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:39:16,176  INFO: 9012 [  webserver.py:44] Lang: というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+, text to split: ja
+2017-03-19 12:39:16,184  INFO: 9012 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:39:16] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:42:10,233  INFO: 9012 [  webserver.py:44] Lang: 「もう弊害《へいがい》はあるまいよ」
+　というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+　ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+　ノ, text to split: ja
+2017-03-19 12:42:10,236  INFO: 9012 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:42:10] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:42:48,463  INFO: 9000 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 12:42:48,936  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:42:49,713 WARNING: 7928 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:42:49,717  INFO: 7928 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:42:49,757  INFO: 7744 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:42:52,769  INFO: 7928 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 12:42:52,804  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:42:53,623 WARNING: 9092 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:42:53,646  INFO: 9092 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:42:53,659  INFO: 8200 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:43:37,196  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:43:37,203  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:43:37] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:43:41,703  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:43:41,706  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:43:41] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:45:47,880  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:45:47,888  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:45:47] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:45:48,694  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:45:48,703  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:45:48] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:45:49,379  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:45:49,391  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:45:49] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:45:49,622  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:45:49,631  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:45:49] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:45:57,938  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+ホームズも私も、トルコ風呂《ぶろ》ときたら目のないほうだった。
+風呂からあがって、休憩室《きゆうけいしつ》で汗《あせ》のひく間、快い疲労《ひろう》のうちにぐったりしてタバコをやっているときは、彼もいくらか口が軽く、よほど人間味をおびてくるのだった。
+ノー, text to split: ja
+2017-03-19 12:45:57,956  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:45:57] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:46:30,966  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」
+　というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。, text to split: ja
+2017-03-19 12:46:30,968  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:46:30] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:46:32,028  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+, text to split: ja
+2017-03-19 12:46:32,031  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:46:32] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:46:32,805  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+<P>
+, text to split: ja
+2017-03-19 12:46:32,808  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:46:32] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:46:36,828  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味で, text to split: ja
+2017-03-19 12:46:36,831  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:46:36] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:01,437  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの
+, text to split: ja
+2017-03-19 12:47:01,439  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:01] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:12,309  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの
+<P>
+, text to split: ja
+2017-03-19 12:47:12,312  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:12] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:22,585  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの
+
+, text to split: ja
+2017-03-19 12:47:22,588  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:22] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:28,761  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの
+
+, text to split: ja
+2017-03-19 12:47:28,764  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:28] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:40,984  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの
+=
+, text to split: ja
+2017-03-19 12:47:40,987  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:40] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:46,933  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの =
+<P>
+, text to split: ja
+2017-03-19 12:47:46,936  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:46] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:47:59,864  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+<P>
+こうしてようやく私は、ある意味では彼《かれ》の生涯《しようがい》の最高の時機ともいうべきこの事件の発表を許されたのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの =
+, text to split: ja
+2017-03-19 12:47:59,867  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:47:59] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:48:11,930  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+<P>
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなの
+, text to split: ja
+2017-03-19 12:48:11,933  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:48:11] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:48:26,970  INFO: 8200 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+<P>
+
+
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなので
+, text to split: ja
+2017-03-19 12:48:26,973  INFO: 8200 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:48:26] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:49:37,710  INFO: 9092 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\splitter\\splitter.py', reloading
+2017-03-19 12:49:38,118  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:49:41,688 WARNING: 7744 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:49:41,692  INFO: 7744 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:49:41,910  INFO: 8612 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:50:04,083  INFO: 7744 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\splitter\\splitter.py', reloading
+2017-03-19 12:50:04,115  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:50:04,894 WARNING: 8036 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:50:04,898  INFO: 8036 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:50:04,910  INFO: 9008 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:50:10,175  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+<P>
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事, text to split: ja
+2017-03-19 12:50:10,181  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:10] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:10,427  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:10,430  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:10] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:11,762  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:11,765  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:11] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:12,629  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:12,633  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:12] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:13,318  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:13,321  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:13] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:14,185  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:14,188  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:14] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:14,672  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:14,674  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:14] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:30,545  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:30,548  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:30] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:50:31,812  INFO: 9008 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:50:31,819  INFO: 9008 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:50:31] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:54:54,796  INFO: 8036 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 12:54:55,429  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:54:59,039 WARNING: 8432 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:54:59,043  INFO: 8432 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:54:59,251  INFO: 8152 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:56:54,490  INFO: 8152 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:56:54] "GET / HTTP/1.1" 200 -
+2017-03-19 12:56:54,964  INFO: 8152 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:56:54] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 12:56:54,970  INFO: 8152 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:56:54] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 12:57:18,008  INFO: 8152 [  webserver.py:45] Lang: 「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表する許しを求めて、やっと承諾《しようだく》を得たわけなのである。
+「もう弊害《へいがい》はあるまいよ」 というのがシャーロック・ホームズのそのときの意見だったが、私はこの十年ばかりの間に十回くらいも、これから話す事件を公表, text to split: ja
+2017-03-19 12:57:18,025  INFO: 8152 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:57:18] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:58:16,665  INFO: 8152 [  webserver.py:45] Lang: В 1878 году я окончил Лондонский университет, получив звание врача, и
+сразу же отправился в Нетли,  где  прошел  специальный  курс  для  военных
+хирургов. После окончания занятий я был  назначен  ассистентом  хирурга  в
+Пятый Нортумберлендский стрелковый полк. В то время полк стоял в Индии,  и
+не ус, text to split: ru
+2017-03-19 12:58:16,771  INFO: 8152 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:58:16] "POST /split HTTP/1.1" 200 -
+2017-03-19 12:59:25,540  INFO: 8432 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 12:59:25,901  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 12:59:26,721 WARNING: 8712 [  _internal.py:87]  * Debugger is active!
+2017-03-19 12:59:26,725  INFO: 8712 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 12:59:26,737  INFO: 4176 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 12:59:53,286  INFO: 4176 [  webserver.py:45] Lang: В 1878 году я окончил Лондонский университет, получив звание врача,   и сразу же отправился в Нетли, где прошел специальный курс для военных хирургов.
+После окончания занятий я был назначен ассистентом хирурга в Пятый Нортумберлендский стрелковый полк.
+В то время полк стоял в Индии, и не успел я до , text to split: ru
+2017-03-19 12:59:53,289 ERROR: 4176 [  webserver.py:54] 
+Traceback (most recent call last):
+  File "webserver.py", line 49, in split
+    splitter[lang] = SentenceSplitter(lang)
+TypeError: 'NoneType' object does not support item assignment
+2017-03-19 12:59:53,455  INFO: 4176 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 12:59:53] "POST /split HTTP/1.1" 500 -
+2017-03-19 13:01:13,640  INFO: 8712 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 13:01:13,989  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 13:01:14,839 WARNING: 8840 [  _internal.py:87]  * Debugger is active!
+2017-03-19 13:01:14,844  INFO: 8840 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 13:01:14,874  INFO: 8284 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 13:01:29,100  INFO: 8840 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 13:01:29,130  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 13:01:30,003 WARNING: 8612 [  _internal.py:87]  * Debugger is active!
+2017-03-19 13:01:30,007  INFO: 8612 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 13:01:30,018  INFO: 8056 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 13:01:32,477  INFO: 8056 [  webserver.py:45] Lang: В 1878 году я окончил Лондонский университет, получив звание врача,   и сразу же отправился в Нетли, где прошел специальный курс для военных хирургов.
+После окончания занятий я был назначен ассистентом хирурга в Пятый Нортумберлендский стрелковый полк.
+В то время полк стоял в Индии, и не успел я до , text to split: ru
+2017-03-19 13:01:32,485  INFO: 8056 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:01:32] "POST /split HTTP/1.1" 200 -
+2017-03-19 13:01:41,018  INFO: 8056 [  webserver.py:45] Lang: В 1878 году я окончил Лондонский университет, получив звание врача, и сразу же отправился в Нетли, где прошел специальный курс для военных хирургов.
+После окончания занятий я был назначен ассистентом хирурга в Пятый Нортумберлендский стрелковый полк.В то время полк стоял в Индии, и не успел я до нег, text to split: ru
+2017-03-19 13:01:41,020  INFO: 8056 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:01:41] "POST /split HTTP/1.1" 200 -
+2017-03-19 13:01:52,635  INFO: 8056 [  webserver.py:45] Lang: В 1878 году я окончил Лондонский университет, получив звание врача, и сразу же отправился в Нетли, где прошел специальный курс для военных хирургов.
+После окончания занятий я был назначен ассистентом хирурга в Пятый Нортумберлендский стрелковый полк. В то время полк стоял в Индии, и не успел я до не, text to split: ru
+2017-03-19 13:01:52,637  INFO: 8056 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:01:52] "POST /split HTTP/1.1" 200 -
+2017-03-19 13:02:05,655  INFO: 8056 [  webserver.py:45] Lang: В 1878 году я окончил Лондонский университет, получив звание врача, и сразу же отправился в Нетли, где прошел специальный курс для военных хирургов.
+После окончания занятий я был назначен ассистентом хирурга в Пятый Нортумберлендский стрелковый полк.В то время полк стоял в Индии, и не успел я до нег, text to split: ru
+2017-03-19 13:02:05,658  INFO: 8056 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:02:05] "POST /split HTTP/1.1" 200 -
+2017-03-19 13:05:03,002  INFO: 8056 [  webserver.py:45] Lang: Пятый Нортумберлендский стрелковый полк.В то время полк стоял в Индии
+
+, text to split: ru
+2017-03-19 13:05:03,004  INFO: 8056 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:05:03] "POST /split HTTP/1.1" 200 -
+2017-03-19 13:05:49,220  INFO: 8056 [  webserver.py:45] Lang: Пятый Нортумберлендский стрелковый полк. В то время полк стоял в Индии
+
+
+, text to split: ru
+2017-03-19 13:05:49,220  INFO: 8056 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:05:49] "POST /split HTTP/1.1" 200 -
+2017-03-19 13:11:48,130  INFO: 8612 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 13:11:48,598  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 13:11:51,598 WARNING: 7912 [  _internal.py:87]  * Debugger is active!
+2017-03-19 13:11:51,603  INFO: 7912 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 13:11:51,728  INFO: 8252 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 13:13:02,804  INFO: 7912 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 13:13:02,834  INFO: 8968 [  _internal.py:87]  * Restarting with stat
+2017-03-19 13:15:01,744  INFO: 8348 [  _internal.py:87]  * Restarting with stat
+2017-03-19 13:15:02,630 WARNING: 8960 [  _internal.py:87]  * Debugger is active!
+2017-03-19 13:15:02,635  INFO: 8960 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 13:15:02,648  INFO: 8656 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 13:15:49,484  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:15:49] "GET / HTTP/1.1" 200 -
+2017-03-19 13:15:50,056  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:15:50] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 13:15:50,059  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:15:50] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:19:30,996  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:19:30] "GET / HTTP/1.1" 200 -
+2017-03-19 13:19:31,400  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:19:31] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 13:19:31,407  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:19:31] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:21:22,527  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:22] "GET / HTTP/1.1" 200 -
+2017-03-19 13:21:22,886  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:22] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:21:22,933  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:22] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:21:33,560  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:33] "GET / HTTP/1.1" 200 -
+2017-03-19 13:21:34,004  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:34] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:21:34,005  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:34] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:21:46,013  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:46] "GET / HTTP/1.1" 200 -
+2017-03-19 13:21:46,387  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:46] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:21:46,444  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:21:46] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:22:23,395  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:23] "GET / HTTP/1.1" 200 -
+2017-03-19 13:22:23,772  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:23] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:22:23,828  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:23] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:22:39,177  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:39] "GET / HTTP/1.1" 200 -
+2017-03-19 13:22:39,683  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:39] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:22:39,767  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:39] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:22:50,997  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:50] "GET / HTTP/1.1" 200 -
+2017-03-19 13:22:51,406  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:51] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:22:51,462  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:51] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:22:57,927  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:57] "GET / HTTP/1.1" 200 -
+2017-03-19 13:22:58,302  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:58] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:22:58,305  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:22:58] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:23:06,351  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:06] "GET / HTTP/1.1" 200 -
+2017-03-19 13:23:06,739  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:06] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:23:06,744  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:06] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:23:30,705  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:30] "GET / HTTP/1.1" 200 -
+2017-03-19 13:23:31,073  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:31] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:23:31,132  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:31] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:23:40,044  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:40] "GET / HTTP/1.1" 200 -
+2017-03-19 13:23:40,414  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:40] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:23:40,468  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:40] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:23:56,362  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:56] "GET / HTTP/1.1" 200 -
+2017-03-19 13:23:56,749  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:56] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:23:56,811  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:23:56] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:24:55,741  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:24:55] "GET / HTTP/1.1" 200 -
+2017-03-19 13:24:56,123  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:24:56] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:24:56,206  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:24:56] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:25:25,244  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:25:25] "GET / HTTP/1.1" 200 -
+2017-03-19 13:25:25,667  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:25:25] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:25:25,731  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:25:25] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:26:51,652  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:26:51] "GET / HTTP/1.1" 200 -
+2017-03-19 13:26:51,998  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:26:51] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:26:52,044  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:26:52] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:33:30,979  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:33:30] "GET / HTTP/1.1" 200 -
+2017-03-19 13:33:39,723  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:33:39] "GET / HTTP/1.1" 200 -
+2017-03-19 13:33:40,101  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:33:40] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 13:33:40,225  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:33:40] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:33:48,019  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:33:48] "GET /align HTTP/1.1" 200 -
+2017-03-19 13:35:18,131  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:35:18] "GET / HTTP/1.1" 200 -
+2017-03-19 13:35:18,531  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:35:18] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 13:35:18,535  INFO: 8656 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 13:35:18] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 14:14:27,619  INFO: 8960 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 14:14:31,102  INFO: 8348 [  _internal.py:87]  * Restarting with stat
+2017-03-19 14:14:40,751 WARNING: 8748 [  _internal.py:87]  * Debugger is active!
+2017-03-19 14:14:40,795  INFO: 8748 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 14:14:41,451  INFO: 8664 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 14:51:45,187  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:51:45] "GET / HTTP/1.1" 200 -
+2017-03-19 14:51:46,232  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:51:46] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 14:51:46,291  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:51:46] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 14:56:26,381  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:56:26] "GET / HTTP/1.1" 200 -
+2017-03-19 14:56:26,924  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:56:26] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 14:56:26,932  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:56:26] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 14:56:39,020  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:56:39] "GET / HTTP/1.1" 200 -
+2017-03-19 14:56:39,613  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:56:39] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 14:56:39,616  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 14:56:39] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:36:42,157  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:36:41] "GET / HTTP/1.1" 200 -
+2017-03-19 15:36:43,459  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:36:43] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:36:43,464  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:36:43] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:37:51,276  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:37:51] "GET / HTTP/1.1" 200 -
+2017-03-19 15:37:51,834  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:37:51] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:37:51,837  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:37:51] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:38:10,112  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:38:10] "GET / HTTP/1.1" 200 -
+2017-03-19 15:38:10,662  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:38:10] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:38:10,665  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:38:10] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:38:39,655  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:38:39] "GET / HTTP/1.1" 200 -
+2017-03-19 15:38:40,319  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:38:40] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:38:40,324  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:38:40] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:39:09,101  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:09] "GET / HTTP/1.1" 200 -
+2017-03-19 15:39:09,658  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:09] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:39:09,666  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:09] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:39:33,159  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:33] "GET / HTTP/1.1" 200 -
+2017-03-19 15:39:33,785  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:33] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:39:33,788  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:33] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:39:47,620  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:47] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:39:51,575  INFO: 8664 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:39:51] "GET /align HTTP/1.1" 200 -
+2017-03-19 15:49:59,809  INFO: 8748 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 15:50:16,109  INFO: 8348 [  _internal.py:87]  * Restarting with stat
+2017-03-19 15:50:47,071 WARNING: 6808 [  _internal.py:87]  * Debugger is active!
+2017-03-19 15:50:47,256  INFO: 6808 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 15:50:50,961  INFO: 10304 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 15:51:09,856  INFO: 6808 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 15:51:10,284  INFO: 8348 [  _internal.py:87]  * Restarting with stat
+2017-03-19 15:51:26,120 WARNING: 10680 [  _internal.py:87]  * Debugger is active!
+2017-03-19 15:51:26,124  INFO: 10680 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 15:51:26,654  INFO: 10464 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 15:52:26,858  INFO: 10680 [  _internal.py:87]  * Detected change in 'c:\\project\\python\\bilingua_text\\webserver.py', reloading
+2017-03-19 15:52:27,071  INFO: 8348 [  _internal.py:87]  * Restarting with stat
+2017-03-19 15:52:35,574 WARNING: 9556 [  _internal.py:87]  * Debugger is active!
+2017-03-19 15:52:35,578  INFO: 9556 [  _internal.py:87]  * Debugger PIN: 156-879-377
+2017-03-19 15:52:37,132  INFO: 8576 [  _internal.py:87]  * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+2017-03-19 15:55:58,822  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:55:58] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:55:59,563  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:55:59] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:55:59,596  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:55:59] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:56:11,361  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:56:11] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:56:12,018  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:56:12] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 15:56:12,022  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:56:12] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:56:41,988  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:56:41] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:56:42,577  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:56:42] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 15:56:42,579  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:56:42] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:58:24,929  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:58:24] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:58:25,732  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:58:25] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:58:25,738  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:58:25] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:58:51,553  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:58:51] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:58:52,114  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:58:52] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:58:52,118  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:58:52] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 15:59:05,897  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:59:05] "GET /split HTTP/1.1" 200 -
+2017-03-19 15:59:06,626  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:59:06] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 15:59:06,629  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 15:59:06] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:00:16,870  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:00:16] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:00:17,662  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:00:17] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:00:17,756  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:00:17] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 16:02:17,223  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:02:17] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:02:17,885  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:02:17] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:02:17,892  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:02:17] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:02:49,312  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:02:49] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:02:49,916  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:02:49] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:02:50,062  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:02:50] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:03:29,228  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:03:29] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:03:29,893  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:03:29] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:03:29,988  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:03:29] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:04:14,249  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:04:14] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:04:14,961  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:04:14] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:04:15,056  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:04:15] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:04:34,915  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:04:34] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:04:35,479  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:04:35] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:04:35,561  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:04:35] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:05:12,528  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:12] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:05:13,149  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:13] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:05:13,223  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:13] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:05:34,238  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:34] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:05:34,872  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:34] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:05:34,961  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:34] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:05:58,760  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:58] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:05:59,388  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:59] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:05:59,467  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:05:59] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 16:06:12,858  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:06:12] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:06:13,473  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:06:13] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:06:13,479  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:06:13] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:07:42,813  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:07:42] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:07:43,491  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:07:43] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:07:43,612  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:07:43] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 16:08:00,141  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:08:00] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:08:00,689  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:08:00] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:08:00,693  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:08:00] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:09:10,155  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:09:10] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:09:24,932  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:09:24] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:09:25,124  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:09:25] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 16:09:51,778  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:09:51] "GET /split HTTP/1.1" 200 -
+2017-03-19 16:09:52,403  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:09:52] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 16:09:52,486  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 16:09:52] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:39:16,351  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:39:16] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:39:17,958  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:39:17] "GET /static/style/main.css HTTP/1.1" 304 -
+2017-03-19 17:39:18,018  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:39:18] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 17:39:53,601  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:39:53] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:39:54,076  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:39:54] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:39:54,085  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:39:54] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 17:40:16,592  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:40:16] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:40:17,191  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:40:17] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 17:40:17,258  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:40:17] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:40:39,651  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:40:39] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:40:40,283  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:40:40] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:40:40,296  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:40:40] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 17:41:10,020  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:41:10] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:41:10,530  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:41:10] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 17:41:10,607  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:41:10] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:41:39,656  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:41:39] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:41:40,391  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:41:40] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
+2017-03-19 17:41:40,443  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:41:40] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:42:33,366  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:42:33] "GET /split HTTP/1.1" 200 -
+2017-03-19 17:42:34,001  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:42:34] "GET /static/style/main.css HTTP/1.1" 200 -
+2017-03-19 17:42:34,013  INFO: 8576 [  _internal.py:87] 127.0.0.1 - - [19/Mar/2017 17:42:34] "GET /static/script/jquery-3.2.0.min.js HTTP/1.1" 304 -
