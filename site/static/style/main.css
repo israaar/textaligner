@@ -1,4 +1,8 @@
 
+  html, body {
+    height: 100%;
+  }
+  
 /*body { margin: 0 }*/
 .header
 {
@@ -69,4 +73,40 @@
 {
     display: block;
     text-align: right;
+}
+
+.left-right {
+
+}
+
+.left-text {
+    height: 100%;
+    float: left;
+}
+
+.right-text {
+    height: 100%;
+    float: left;
+}
+
+
+  .gutter.gutter-horizontal {
+    cursor: col-resize;
+    background-color: gray;
+  }
+
+.gutter.gutter-horizontal {
+    height: 100%;
+	
+    float: left;
+  }
+
+.left-text h3 {
+	display: block;
+	margin: 1px 1px 0px 1px;
+}
+
+.right-text h3 {
+	display: block;
+	margin: 1px 1px 0px 1px;
 }

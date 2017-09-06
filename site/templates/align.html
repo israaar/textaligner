@@ -4,16 +4,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Bilingual Text Tools</title>
 	<link rel="stylesheet" type="text/css" href="static/style/main.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
    <!-- <link href="static/style/smoothness2/jquery-ui-1.11.2.custom.min.css" rel="stylesheet"/>
 	<link href="static/style/pagination.css" rel="stylesheet"/>
 	-->
 	<script src="{{ url_for('static', filename='script/jquery-3.2.0.min.js') }}"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
+   <script src="https://unpkg.com/split.js/split.min.js"></script>
    <!-- <script src="{{ url_for('static', filename='script/jquery-ui-1.11.2.custom.min.js') }}"></script>
 	<script src="{{ url_for('static', filename='script/jquery.pagination.js') }}"></script>
 	-->
 	<script>
 	$(document).ready(function() {
+	/*
+		$(".left-text").resizable({
+	//		containment: ".left-right",
 		
+		});
+		$(".right-text").resizable({
+	//		containment: ".left-right",
+
+		});
+		*/
+		Split(['.left-text', '.right-text'], {
+    sizes: [50, 50],
+      gutterSize: 10,
+      cursor: 'col-resize'	
+});
 		$('.split-btn').click(function(){
 			//alert('tttee')
 			var lang = 'jp'
@@ -40,8 +57,19 @@
 </head>
 <body>
 <h1>Tools to Create Bilingial Texts</h1>
-<div class="text">
-	<textarea class="split-txt"></textarea>
-	<span class="split-span"><button class="split-btn">Split into sentences</button></span>
-</div>
+<!-- <div class="text">
+	<div class="left-right"> -->
+	
+		<div class="left-text ui-widget-content">
+			<h3 class="ui-widget-header">Left</h3>
+			<div contenteditable="true">Enter text here...<br><br><br><br></div>
+		</div>
+		<div class="right-text ui-widget-content">
+			<h3 class="ui-widget-header">Right</h3>
+			<div contenteditable="true">Enter text here...<br><br><br><br></div>
+		</div>
+	
+	<!-- </div>
+	<span class="split-span"><button class="split-btn">Split into sentences</button></span> 
+</div>  -->
 </body>	
