@@ -16,26 +16,13 @@
 	-->
 	<script>
 	$(document).ready(function() {
-	/*
-		$(".left-text").resizable({
-	//		containment: ".left-right",
-		
-		});
-		$(".right-text").resizable({
-	//		containment: ".left-right",
-
-		});
-		*/
 		Split(['.left-text', '.right-text'], {
-    sizes: [50, 50],
-      gutterSize: 10,
-      cursor: 'col-resize'	
-});
+			  sizes: [48, 48],
+			  gutterSize: 10,
+		});
 		$('.split-btn').click(function(){
-			//alert('tttee')
 			var lang = 'jp'
 			var text = $('.split-txt').val();
-			//alert(text);
 			$.ajax({
 				type: "POST",
 				url: '/split',
@@ -48,7 +35,7 @@
 						},
 				success: function(result, textStatus, jqXHR){
 							split_text = result.text;
-							$('.split-txt').val(split_text);
+							$('.align-btn').val(split_text);
 						}
 			});
 		});
@@ -59,17 +46,15 @@
 <h1>Tools to Create Bilingial Texts</h1>
 <!-- <div class="text">
 	<div class="left-right"> -->
-	
-		<div class="left-text ui-widget-content">
-			<h3 class="ui-widget-header">Left</h3>
-			<div contenteditable="true">Enter text here...<br><br><br><br></div>
-		</div>
-		<div class="right-text ui-widget-content">
-			<h3 class="ui-widget-header">Right</h3>
-			<div contenteditable="true">Enter text here...<br><br><br><br></div>
-		</div>
-	
-	<!-- </div>
-	<span class="split-span"><button class="split-btn">Split into sentences</button></span> 
-</div>  -->
+
+	<div class="left-text ui-widget-content">
+		<h3 class="ui-widget-header">Left</h3>
+		<div class="text-pane" contenteditable="true">Enter text here...<br><br><br><br></div>
+	</div>
+	<div class="right-text ui-widget-content">
+		<h3 class="ui-widget-header">Right</h3>
+		<div contenteditable="true">Enter text here...<br><br><br><br></div>
+	</div>
+
+	<button class="align-btn">Align sentences</button>
 </body>	
