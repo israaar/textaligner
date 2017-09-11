@@ -7,7 +7,7 @@ from langdetect import detect
 
 from utils import setup_logger
 from splitter.splitter import SentenceSplitter
-
+from align import align_html
 
 app = Flask(__name__,
             static_folder='site/static',
@@ -76,13 +76,9 @@ def align():
         if len(right_text) == 0:
             raise BadRequest('Right text is empty')
 
-        #if len(left_lang) == 0:
-        #    raise BadRequest('Left language is empty')
-
-        #if len(right_lang) == 0:
-        #    raise BadRequest('Right language is empty')
-
-        return jsonify({})
+        logging.info("Texts to align: '%s' vs '%s'", left_text[:300], right_text[:300])
+        result = align_html(left_text, right_text)
+        return jsonify({'aligned_text': list(result)})
     except:
         logging.exception('')
         raise
@@ -90,9 +86,7 @@ def align():
 
 def main():
     setup_logger()
-    app.run(host='0.0.0.0', port=8000, debug=True,
-
-            use_reloader=True)
+    app.run(host='0.0.0.0', port=8000, debug=True, use_reloader=True)
 
 if __name__ == '__main__':
     main()

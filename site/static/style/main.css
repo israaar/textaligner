@@ -75,10 +75,16 @@
     text-align: right;
 }
 
-.align-btn{
+.align-btn {
 clear: both; float: left; display: block; position: relative;
 margin: 5px 5px;
 }
+
+.split-left-btn, .split-right-btn {
+	float: left; display: block; position: relative;
+	margin: 5px 5px;
+}
+
 
 .left-right {
 
@@ -118,7 +124,7 @@ margin: 5px 5px;
 	margin: 1px 1px 0px 1px;
 }
 
-.text-pane {
+.left-text-pane, .right-text-pane {
 	margin-top: 4px;
 	margin-left: 4px;
 }

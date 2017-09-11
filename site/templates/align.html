@@ -9,6 +9,7 @@
 	<link href="static/style/pagination.css" rel="stylesheet"/>
 	-->
 	<script src="{{ url_for('static', filename='script/jquery-3.2.0.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='script/main.js') }}"></script>
    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
    <script src="https://unpkg.com/split.js/split.min.js"></script>
    <!-- <script src="{{ url_for('static', filename='script/jquery-ui-1.11.2.custom.min.js') }}"></script>
@@ -20,22 +21,25 @@
 			  sizes: [48, 48],
 			  gutterSize: 10,
 		});
-		$('.split-btn').click(function(){
-			var lang = 'jp'
-			var text = $('.split-txt').val();
+		$('.align-btn').click(function(){
+			var leftText = $('.left-text-pane').html();
+			var rightText = $('.right-text-pane').html();
 			$.ajax({
 				type: "POST",
-				url: '/split',
-				data: { "text" : text,
-						"lang" : lang
+				url: '/ajax_align',
+				data: { "left_text" : leftText,
+						"right_text" : rightText,
 					  },
 				dataType: "json",
 				error: 	function(jqXHR, textStatus, errorThrown){
 						// TODO: add handler
 						},
 				success: function(result, textStatus, jqXHR){
-							split_text = result.text;
-							$('.align-btn').val(split_text);
+							aligned_text = result.aligned_text;
+							console.log(aligned_text);
+							pane_texts = demux_text(aligned_text);
+							$('.left-text-pane').html(pane_texts[0]);
+							$('.right-text-pane').html(pane_texts[1]);
 						}
 			});
 		});
@@ -49,12 +53,15 @@
 
 	<div class="left-text ui-widget-content">
 		<h3 class="ui-widget-header">Left</h3>
-		<div class="text-pane" contenteditable="true">Enter text here...<br><br><br><br></div>
+		<div class="left-text-pane" contenteditable="true">シャーロックホームズにとって、彼女はいつも「あの女」である。ホームズが彼女を他の名前で呼ぶのはほとんど聞いたことがない。彼の目には、彼女がそびえ立って女という性全体を覆い隠している。しかし、彼はアイリーン・アドラーに愛のような激情は一切感じていなかった。すべての激情は、そして特に愛というものは、相容れなかった、彼の冷静で厳格だが見事に調整された心とは。彼は、私の理解では、最も完璧な思考力と観察力の機械だ、世界でこれまでに例を見ない、しかし恋人としては、彼は自分自身をまずい立場に置いてきたようだ。彼は甘い言葉は決して口にしなかった、からかいとあざ笑いを交えずには。人の心を乱す情緒は、観察者にとって素晴らしい物だった、隠された人間の動機と行動を明らかにするには理想的だった。しかし、理詰めで考えるように訓練してきた者にとって、そのような侵入物を許すのは、自分自身の微妙で精細に調整された精神の状態に、乱れた要素を導入し、彼の知力の結果に疑いを投げかけかねない。敏感な実験器具に入った塵、彼の高倍率の拡大鏡のひび割れ、それらはもっと乱すことはないだろう、彼のような気質の人間に愛という激情を導入するよりも。にもかかわらず、彼が無視できない一人の女がいた、その女が故アイリーン・アドラーだった、「怪しげで疑わしい」という死後の称号を贈ってもよい。</div>
 	</div>
 	<div class="right-text ui-widget-content">
 		<h3 class="ui-widget-header">Right</h3>
-		<div contenteditable="true">Enter text here...<br><br><br><br></div>
+		<div class="right-text-pane" contenteditable="true">TO SHERLOCK HOLMES she is always the woman. I have seldom heard him mention her under any other name. In his eyes she eclipses and predominates the whole of her sex. It was not that he felt any emotion akin to love for Irene Adler. All emotions, and that one particularly, were abhorrent to his cold, precise but admirably balanced mind. He was, I take it, the most perfect reasoning and observing machine that the world has seen, but as a lover he would have placed himself in a false position. He never spoke of the softer passions, save with a gibe and a sneer. They were admirable things for the observer – excellent for drawing the veil from men’s motives and actions. But for the trained reasoner to admit such intrusions into his own delicate and finely adjusted temperament was to introduce a distracting factor which might throw a doubt upon all his mental results. Grit in a sensitive instrument, or a crack in one of his own high-power lenses, would not be more disturbing than a strong emotion in a nature such as his. And yet there was but one woman to him, and that woman was the late Irene Adler, of dubious and questionable memory. </div>
 	</div>
 
+
 	<button class="align-btn">Align sentences</button>
+	<button class="split-left-btn">Split left text</button>
+	<button class="split-right-btn">Split right text</button>	
 </body>	

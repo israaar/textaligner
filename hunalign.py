@@ -4,9 +4,11 @@ import os.path
 from tempfile import NamedTemporaryFile
 import re
 
+import itertools
+
 def pairwise(iterable):
     "s -> (s0,s1), (s1,s2), (s2, s3), ..."
-    a, b = tee(iterable)
+    a, b = itertools.tee(iterable)
     next(b, None)
     return zip(a, b)
 
@@ -51,15 +53,25 @@ def align_indexes(left_lang, left_text, right_lang, right_text):
             yield left_index, right_index, quality
 
 
-def align(left_lang, left_text, right_lang, right_text):
+def align_with_lang(left_lang, left_text, right_lang, right_text):
     iterator = align_indexes(left_lang, left_text, right_lang, right_text)
-    for start, end in pairwise(chain(iterator, [len()]))
+    left_lines = left_text.split('\n')
+    right_lines = right_text.split('\n')
+    for start, end in pairwise(itertools.chain(iterator, [(len(left_lines), len(right_lines), 0)])): #[]
+        print(start, end)
+        start_index_left, start_index_right, quality = start
+        end_index_left, end_index_right, _ = end
+        yield (''.join(left_lines[start_index_left:end_index_left]),
+               ''.join(right_lines[start_index_right:end_index_right]))
+
+
+
 
 
 def test():
     with open('1jp.txt', encoding='utf-8') as left, \
          open('1ru.txt', encoding='utf-8') as right:
-         align('ja', left.read(), 'ru', right.read())
+        align_with_lang('ja', left.read(), 'ru', right.read())
 
 if __name__ == "__main__":
     test()
