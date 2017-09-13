@@ -22,8 +22,8 @@
 			  gutterSize: 10,
 		});
 		$('.align-btn').click(function(){
-			var leftText = $('.left-text-pane').html();
-			var rightText = $('.right-text-pane').html();
+			var leftText = strip_html($('.left-text-pane').html());
+			var rightText = strip_html($('.right-text-pane').html());
 			$.ajax({
 				type: "POST",
 				url: '/ajax_align',
@@ -36,7 +36,7 @@
 						},
 				success: function(result, textStatus, jqXHR){
 							aligned_text = result.aligned_text;
-							console.log(aligned_text);
+							//console.log(aligned_text);
 							pane_texts = demux_text(aligned_text);
 							$('.left-text-pane').html(pane_texts[0]);
 							$('.right-text-pane').html(pane_texts[1]);

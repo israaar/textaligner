@@ -3,13 +3,14 @@
 import sys
 import os.path
 import argparse
+import logging
 import regex  # supports POSIX classes
 
 re_tag = regex.compile('^<.+>$')
 
 
 def subst_char_class(rule):
-    rule = rule.replace(r'\p{IsPi}', r'\p{Initial_Punctuation}')
+    rule = rule.replace(r'\p{IsPi}', r'\p{Initial_Punctuation}\p{Dash_Punctuation}')
     rule = rule.replace(r'\p{IsPf}', r'\p{Final_Punctuation}')
     rule = rule.replace(r'\p{IsAlnum}', r'\w')
     rule = rule.replace(r'\p{IsUpper}', r'\p{Uppercase_Letter}\p{Other_Letter}')
@@ -22,8 +23,8 @@ def get_prefix_filename(language):
     prefixfile = getprefixfile(language)
     # default back to English if we don't have a language-specific prefix file
     if not os.path.isfile(prefixfile):
-        prefixfile = getprefixfile("en");
-        print("WARNING: No known abbreviations for language '{}', attempting fall-back to English version...\n".format(language))
+        prefixfile = getprefixfile("en")
+        logging.info("WARNING: No known abbreviations for language '%s', attempting fall-back to English version...\n", language)
         if not os.path.isfile(prefixfile):
             raise RuntimeError("ERROR: No abbreviations files found in " + prefixfile)
     return prefixfile
@@ -34,7 +35,7 @@ def load_prefix_file(prefixfile):
     with open(prefixfile, encoding='utf8') as file:
         for line in file.readlines():
             line = line.strip()
-            if len(line) and line[0] !=  "#":
+            if len(line) and line[0] != "#":
                 m = regex.match('(.*)[\s]+(\#NUMERIC_ONLY\#)', line)
                 if m:
                     NONBREAKING_PREFIX[m.group(1)] = 2
@@ -106,35 +107,35 @@ def do_it_for(text, markup, NONBREAKING_PREFIX):
 
 def preprocess(text, NONBREAKING_PREFIX):
     # clean up spaces at head and tail of each line as well as any double-spacing
-    text = regex.sub(' +', ' ', text)
+    text = regex.sub('\s+', ' ', text)
     text = regex.sub('\n ', '\n', text)
     text = regex.sub(' \n', '\n', text)
-    text = regex.sub('^ ', '', text)
-    text = regex.sub(' $', '', text)
+    text = regex.sub('^\s', '', text)
+    text = regex.sub('\s$', '', text)
 
     # this is one paragraph
     # add sentence breaks as needed#####
     # non-period end of sentence markers (?!) followed by sentence starters.
-    text = regex.sub (subst_char_class(r'([?!]) +([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])'), r'\1\n\2', text, regex.UNICODE)
+    text = regex.sub (subst_char_class(r'([?!])\s+([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])'), r'\1\n\2', text)
 
     # multi-dots followed by sentence starters
-    text = regex.sub (subst_char_class(r'(\.[\.]+) +([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])'), r'\1\n\2', text, regex.UNICODE)
+    text = regex.sub (subst_char_class(r'(\.[\.]+)\s+([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])'), r'\1\n\2', text)
 
     # add breaks for sentences that end with some sort of punctuation inside a quote or parenthetical and
     # are followed by a possible sentence starter punctuation and upper case
-    text = regex.sub (subst_char_class(r'([?!\.][\ ]*[\'\"\)\]\p{IsPf}]+) +([\'\"\(\[\¿\¡\p{IsPi}]*[\ ]*[\p{IsUpper}])'), r'\1\n\2', text, regex.UNICODE)
+    text = regex.sub (subst_char_class(r'([?!\.][\s]*[\'\"\)\]\p{IsPf}]+)\s+([\'\"\(\[\¿\¡\p{IsPi}]*[\s]*[\p{IsUpper}])'), r'\1\n\2', text)
 
     # add breaks for sentences that end with some sort of punctuation are followed by a sentence starter punctuation and
     # upper case
-    text = regex.sub(subst_char_class(r'([?!\.]) +([\'\"\(\[\¿\¡\p{IsPi}]+[\ ]*[\p{IsUpper}])'), r'\1\n\2', text, regex.UNICODE)
+    text = regex.sub(subst_char_class(r'([?!\.])\s+([\'\"\(\[\¿\¡\p{IsPi}]+\s*[\p{IsUpper}])'), r'\1\n\2', text) #, flags=regex.MULTILINE)
 
-    text = regex.sub(subst_char_class(r'。'), r'。\n', text, regex.UNICODE)
+    text = regex.sub(subst_char_class(r'。'), r'。\n', text)
 
     # special punctuation cases are covered. Check all remaining periods.
     words = text.split(' ')
     text = ""
     for i in range(len(words)-1):
-        m = regex.match(subst_char_class(r'([\p{IsAlnum}\.\-]*)([\'\"\)\]\%\p{IsPf}]*)(\.+)$'), words[i], regex.UNICODE|regex.S)
+        m = regex.match(subst_char_class(r'([\p{IsAlnum}\.\-]*)([\'\"\)\]\%\p{IsPf}]*)(\.+)$'), words[i], flags=regex.S)
         if m:
             # check if $1 is a known honorific and $2 is empty, never break
             prefix = m.group(1)
@@ -142,10 +143,10 @@ def preprocess(text, NONBREAKING_PREFIX):
             if prefix and NONBREAKING_PREFIX.get(prefix) == 1 and not starting_punct:
                 # not breaking;
                 pass
-            elif regex.match(subst_char_class(r'[\.][\p{IsUpper}\-]+(\.+)$'), words[i], regex.UNICODE):
+            elif regex.match(subst_char_class(r'[\.][\p{IsUpper}\-]+(\.+)$'), words[i]):
                 pass
                 # not breaking - upper case acronym
-            elif regex.match(subst_char_class(r'^([ ]*[\'\"\(\[\¿\¡\p{IsPi}]*[ ]*[\p{IsUpper}0-9])'), words[i+1], regex.UNICODE):
+            elif regex.match(subst_char_class(r'^([\s]*[\'\"\(\[\¿\¡\p{IsPi}]*[\s]*[\p{IsUpper}0-9])'), words[i+1]):
                 # the next word has a bunch of initial quotes, maybe a space, then either upper case or a number
                 if prefix and NONBREAKING_PREFIX.get(prefix, 0) == 2 and not starting_punct and (regex.match(r'^[0-9]+', words[i+1])):
                     pass

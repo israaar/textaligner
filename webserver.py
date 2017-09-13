@@ -57,8 +57,8 @@ def split():
             splitter = SentenceSplitter(lang)
             splitters[lang] = splitter
         output_text = splitter.process_string(text)
-        output_lang = lang
-        return jsonify({'text': output_text, 'lang': output_lang})
+        #logging.info('Langzz: %s, text to split: %s', text, lang)
+        return jsonify({'text': output_text, 'lang': lang})
     except:
         logging.exception('')
         raise
