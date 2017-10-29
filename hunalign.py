@@ -3,8 +3,9 @@ import subprocess
 import os.path
 from tempfile import NamedTemporaryFile
 import re
-
 import itertools
+import logging
+
 
 def pairwise(iterable):
     "s -> (s0,s1), (s1,s2), (s2, s3), ..."
@@ -40,12 +41,12 @@ def align_indexes(left_lang, left_text, right_lang, right_text):
 
     exe_name = os.path.join(this_dir, 'hunalign', 'hunalign.exe')
 
-    process = subprocess.Popen([exe_name, '-utf', dict_file_name, left_file.name, right_file.name], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    process.wait()
+    cmd_params = [exe_name, '-utf', dict_file_name, left_file.name, right_file.name]
+    logging.debug('run:%s', ' '.join(cmd_params))
+    process = subprocess.run(cmd_params, encoding='utf8', stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if process.returncode != 0:
         raise RuntimeError('Hunalign exited with error ' + str(process.returncode))
-    process_stdout = process.communicate()[0]
-    contents = process_stdout.decode('utf8').strip()
+    contents = process.stdout.strip()
     for line in contents.split('\n'):
         m = re_pair.match(line)
         if m:
@@ -57,15 +58,13 @@ def align_with_lang(left_lang, left_text, right_lang, right_text):
     iterator = align_indexes(left_lang, left_text, right_lang, right_text)
     left_lines = left_text.split('\n')
     right_lines = right_text.split('\n')
-    for start, end in pairwise(itertools.chain(iterator, [(len(left_lines), len(right_lines), 0)])): #[]
-        print(start, end)
+    iterator = list(iterator)
+    for start, end in pairwise(itertools.chain(iterator, [(len(left_lines), len(right_lines), 0)])):
+        logging.debug('from:%d, to:%d', start, end)
         start_index_left, start_index_right, quality = start
         end_index_left, end_index_right, _ = end
-        yield (''.join(left_lines[start_index_left:end_index_left]),
-               ''.join(right_lines[start_index_right:end_index_right]))
-
-
-
+        yield (' '.join(left_lines[start_index_left:end_index_left]),
+               ' '.join(right_lines[start_index_right:end_index_right]))
 
 
 def test():

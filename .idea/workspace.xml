@@ -18,8 +18,8 @@
       <file leaf-file-name="webserver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="27" />
+            <state relative-caret-position="1224">
+              <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
               </folding>
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hunalign.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hunalign.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hunalign.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="86">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="e#1#18#0" expanded="true" />
               </folding>
@@ -39,14 +39,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="align.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subprocess.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python34/Lib/subprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12801">
+              <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="align.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/align.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-              <folding>
-                <element signature="e#1#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="53">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +62,20 @@
       <file leaf-file-name="test_hunalign.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_hunalign.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="1683">
+              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_whole_align.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_whole_align.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#24#38#0" expanded="true" />
               </folding>
@@ -66,8 +86,8 @@
       <file leaf-file-name="splitter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitter/splitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="141" column="39" lean-forward="true" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+            <state relative-caret-position="1360">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="e#27#37#0" expanded="true" />
               </folding>
@@ -78,8 +98,8 @@
       <file leaf-file-name="test_splitter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitter/test_splitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="2023">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding>
                 <element signature="e#25#40#0" expanded="true" />
               </folding>
@@ -90,7 +110,7 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="170">
               <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -128,14 +148,15 @@
         <option value="$PROJECT_DIR$/test/test_hunalign.py" />
         <option value="$PROJECT_DIR$/splitter/splitter.py" />
         <option value="$PROJECT_DIR$/splitter/test_splitter.py" />
-        <option value="$PROJECT_DIR$/hunalign.py" />
         <option value="$PROJECT_DIR$/webserver.py" />
         <option value="$PROJECT_DIR$/align.py" />
+        <option value="$PROJECT_DIR$/test/test_whole_align.py" />
+        <option value="$PROJECT_DIR$/hunalign.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-2" />
     <option name="width" value="1936" />
     <option name="height" value="1040" />
   </component>
@@ -154,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,13 +217,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_splitter">
+  <component name="RunManager" selected="Python tests.Unittests in test_whole_align">
     <configuration default="false" name="align" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,6 +254,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="bilingua_text" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/splitter/test_splitter.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_whole_align" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bilingua_text" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_whole_align.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -377,14 +421,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.align" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_splitter" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_whole_align" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_splitter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.align" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_whole_align" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_splitter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.align" />
       </list>
     </recent_temporary>
   </component>
@@ -405,46 +451,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 47m 16s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 19h 59m 26s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 48m 10s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 00m 04s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 49m 03s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 00m 39s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 49m 23s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 47m 38s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 49m 35s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 47m 50s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 49m 47s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 51m 08s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 51m 06s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 52m 54s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 51m 21s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 54m 08s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 11h 51m 35s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 55m 16s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_splitter - 2017.09.13 at 12h 09m 21s.xml">
-      <configuration name="Unittests in test_splitter" configurationId="tests" />
+    <history-entry file="Unittests_in_test_whole_align - 2017.10.29 at 20h 57m 20s.xml">
+      <configuration name="Unittests in test_whole_align" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="0" width="1936" height="1040" extended-state="0" />
+    <frame x="-2" y="0" width="1936" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -466,16 +512,104 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/splitter/splitter.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/test/test_whole_align.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/splitter/test_splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="27" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hunalign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding>
+            <element signature="e#1#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/align.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_hunalign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitter/splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="39" lean-forward="true" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+          <folding>
+            <element signature="e#27#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitter/test_splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webserver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -500,9 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -570,9 +702,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -640,9 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -800,23 +928,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_hunalign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="170">
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -826,50 +943,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/splitter/test_splitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
-          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        <state relative-caret-position="2023">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="e#25#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splitter/splitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="141" column="39" lean-forward="true" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
-          <folding>
-            <element signature="e#27#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="27" />
+        <state relative-caret-position="1224">
+          <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hunalign.py">
+    <entry file="file://$PROJECT_DIR$/splitter/splitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="1360">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
-            <element signature="e#1#18#0" expanded="true" />
+            <element signature="e#27#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12801">
+          <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_whole_align.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_hunalign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/align.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="53">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hunalign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
-            <element signature="e#1#15#0" expanded="true" />
+            <element signature="e#1#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
