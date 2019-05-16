@@ -1,10 +1,14 @@
 
-Web tool to process bilingual texts:
+Web and command line tools to process bilingual texts:
 - Sentence splitting
-- Sentence aligning
+- Sentence by sentence aligning
 
 Install prerequisites:
 
-- pip install langdetect
-- pip install regex
-- pip install flask
+- pip install langdetect regex flask
+
+Usage:
+align.py <left> <right> <out>
+left - file of the text on the left side.
+right - file of the text on the right side.
+out - output file name.

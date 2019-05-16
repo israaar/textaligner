@@ -46,3 +46,20 @@ def align_html(left_text, right_text):
     return align(left_text, right_text)
     #for split_text in align(left_text, right_text):
     #    yield split_text[0], split_text[1]
+
+
+def run_aligning(left_file, right_file, out_name):
+    left = open(left_file, encoding='utf8').read()
+    right = open(right_file, encoding='utf8').read()
+    result = align(left, right)
+    with open(out_name, mode='w', encoding='utf8') as out:
+        for left, right in result:
+            out.write(left.replace('"', '\'') + '\t' + right.replace('"', '\'') + '\n')
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 4:
+        print('run: {} <left> <right> <out>'.format(sys.argv[0]))
+        sys.exit(-1)
+
+    run_aligning(sys.argv[1], sys.argv[2], sys.argv[3])
